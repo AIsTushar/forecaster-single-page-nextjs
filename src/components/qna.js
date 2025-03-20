@@ -7,10 +7,10 @@ import {
 
 const Question = ({ question, answer }) => {
   return (
-    <div className="bg-black px-6 rounded-md">
+    <div className="bg-black px-2 lg:px-6 rounded-md">
       <CustomAccordion type="single" collapsible className="w-full">
         <CustomAccordionItem value="item-1">
-          <CustomAccordionTrigger className="text-[24px]">
+          <CustomAccordionTrigger className="lg:text-[24px] px-2 text-start text-lg">
             {question}
           </CustomAccordionTrigger>
           <CustomAccordionContent>{answer}</CustomAccordionContent>

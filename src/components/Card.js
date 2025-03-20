@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Card({ title, price, featureOne, featureTwo, btnText }) {
   return (
-    <div class="w-[420px] h-auto py-6 px-6 rounded-md border border-white/10 bg-black shadow-[0px_0px_100px_0px_rgba(40,153,68,0.25)]">
+    <div class="w-[350px] lg:w-[420px] h-auto py-6 px-6 rounded-md border border-white/10 bg-black shadow-[0px_0px_100px_0px_rgba(40,153,68,0.25)]">
       <div className="border-b-[1px] border-white/10">
         <p className="text-3xl text-center font-normal uppercase py-6 leading-[100%]">
           {title}

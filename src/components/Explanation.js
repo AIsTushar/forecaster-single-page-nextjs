@@ -3,7 +3,7 @@ import Image from "next/image";
 function Explanation() {
   return (
     <div className="lg:p-16 w-full text-white">
-      <div className="flex flex-col lg:flex-row items-start gap-6 p-2 lg:gap-16 border-t max-w-[1312px] pt-6">
+      <div className="flex flex-col lg:flex-row items-start gap-6 px-2 lg:gap-16 border-t max-w-[1312px] pt-6 pb-12">
         <div className="w-[275px]">
           <p class=" text-4xl text-white">Meet Forecaster.</p>
         </div>

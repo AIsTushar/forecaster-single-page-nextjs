@@ -2,9 +2,9 @@ import FaqAccordion from "./qna.js";
 
 function FAQ() {
   return (
-    <div className="p-16 max-h-[552px] bg-[#1A1A1A] flex flex-col gap-10">
-      <div className="w-1/2">
-        <p className="font-semibold text-8xl leading-[110%] tracking-[-2%]">
+    <div className="flex py-16 px-4 lg:p-16 bg-[#1A1A1A] flex-col lg:flex-row gap-10">
+      <div className="w-full lg:w-1/2">
+        <p className="font-semibold text-5xl lg:text-8xl leading-[110%] tracking-[-2%]">
           Frequently{" "}
           <span className="line-through decoration-1 text-gray-400 ">
             Asked
@@ -12,7 +12,7 @@ function FAQ() {
           Forecasted Questions
         </p>
       </div>
-      <div className="w-1/2 h-[400px]">
+      <div className="w-full lg:w-1/2 ">
         <FaqAccordion />
       </div>
     </div>

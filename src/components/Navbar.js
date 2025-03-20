@@ -8,7 +8,7 @@ const Eclipses = () => {
   return (
     <>
       <div className="absolute w-[294px] h-[50px] top-[-20px] left-[-150px] bg-[rgba(40,153,68,1)] opacity-90 blur-2xl  rotate-[7.18deg] rounded-full" />
-      <div className="absolute w-[637px] h-[54px] top-[-16px] left-[790px] bg-[rgba(40,153,68,1)] rounded-full blur-xl opacity-50" />
+      <div className="absolute hidden lg:block w-[637px] h-[54px] top-[-16px] left-[790px] bg-[rgba(40,153,68,1)] rounded-full blur-xl opacity-50" />
     </>
   );
 };
@@ -20,8 +20,8 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="relative w-full h-36 py-8 px-6 lg:px-12 text-white">
-      {/* <Eclipses /> */}
+    <header className="sticky top-0 w-full h-36 py-8 px-6 lg:relative lg:px-12 text-white z-20">
+      <Eclipses />
       <div className="flex items-center justify-between h-[72px] rounded-md py-4 px-6 bg-white/15 backdrop-blur-xl ">
         <Image src="/logo.svg" alt="Forecaster Logo" width={205} height={40} />
 
@@ -59,7 +59,7 @@ function Navbar() {
 
       {isOpen && (
         <div className="absolute top-full flex flex-col left-0 w-full h-[calc(100vh-72px)] bg-black px-12 z-50">
-          <div className="w-[342px] h-[240px] relative">
+          <div className=" h-[240px] relative">
             <Image
               src="/photo.png"
               alt="Forecaster Logo"
@@ -68,7 +68,7 @@ function Navbar() {
               priority
             />
           </div>
-          <div className="flex flex-col items-start gap-6 mt-4 mb-16">
+          <div className="flex flex-col items-start gap-6 mt-6 mb-16">
             <Link href="/" className="text-2xl leading-[100%]">
               Features
             </Link>
