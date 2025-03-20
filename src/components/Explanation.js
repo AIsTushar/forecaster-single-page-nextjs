@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Explanation() {
   return (
-    <div className="p-16 w-full">
+    <div className="p-16 w-full text-white">
       <div className="flex items-start gap-16 border-t max-w-[1312px] pt-6">
         <div className="w-[275px]">
           <p class=" text-4xl text-white">Meet Forecaster.</p>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <header className="w-full h-36 py-8 px-12">
+    <header className="w-full h-36 py-8 px-12 text-white">
       <div className="flex items-center justify-between h-[72px] rounded-md py-4 px-6 bg-white/15 backdrop-blur-xl ">
         <Image src="/logo.svg" alt="Forecaster Logo" width={205} height={40} />
 

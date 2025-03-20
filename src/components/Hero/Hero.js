@@ -4,7 +4,7 @@ import CTA from "./CTA";
 
 function Hero() {
   return (
-    <div className="flex py-24 items-center justify-center">
+    <div className="flex py-24 items-center justify-center text-white">
       <div className="flex flex-col w-[641px] h-[640px] gap-[80px]">
         <div className="w-[641px] h-[318px]">
           <h1 className="font-semibold text-8xl leading-[110%] tracking-[-0.02em]">

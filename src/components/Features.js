@@ -32,7 +32,7 @@ function Features() {
               layout="fill"
               objectFit="cover"
               priority
-              className="absolute  object-[225%_75%]"
+              className="absolute"
             />
 
             <div className="absolute top-36 left-6 flex flex-col gap-6 w-[80%]">
