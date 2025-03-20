@@ -22,7 +22,7 @@ function Frame() {
         <Star />
         <Star />
       </div>
-      <p className="tracking-[-1%] leading-[100%] text-lg font-normal">
+      <p className="text-[18px] tracking-[-1%] leading-[100%] text-lg font-normal">
         “Now I’m hitting birdies instead of branches.”
       </p>
       <div className="flex gap-4">

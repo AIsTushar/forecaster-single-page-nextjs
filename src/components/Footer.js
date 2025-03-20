@@ -4,13 +4,9 @@ function Footer() {
   return (
     <div className="p-16 flex flex-col gap-10">
       <div className="flex items-center gap-12">
-        <Image
-          src="/logo icon.svg"
-          alt="Logo"
-          height={256}
-          width={256}
-          className=""
-        />
+        <div className="relative w-[70px] h-[70px]">
+          <Image src="/logo icon.svg" alt="Logo" fill />
+        </div>
         <p className="text-[204px]">Forecaster</p>
       </div>
 

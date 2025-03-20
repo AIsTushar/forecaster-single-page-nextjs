@@ -10,7 +10,7 @@ function Membership() {
         If a $500 golf ball isn’t enough, you can improve our margins further by
         kindly providing us with recurring revenue.
       </p>
-      <div className="flex gap-6">
+      <div className="flex flex-col lg:flex-row gap-6">
         <Card
           btnText="Get Basic"
           title="basic"

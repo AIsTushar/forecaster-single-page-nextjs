@@ -25,15 +25,18 @@ function Features() {
         </div>
 
         <div className="grid grid-rows-2 col-span-3 gap-6 h-full">
-          <div className="relative w-full h-full rounded-md overflow-hidden">
-            <Image
-              src="/Headphones.jpg"
-              alt="Forecaster Logo"
-              layout="fill"
-              objectFit="cover"
-              priority
-              className="absolute"
-            />
+          {/* Second Card */}
+          <div className="relative w-full h-[400px] rounded-md overflow-hidden bg-black">
+            <div className="w-full h-full relative overflow-hidden">
+              <Image
+                src="/Headphones.jpg"
+                alt="Forecaster Logo"
+                height={1524}
+                width={1524}
+                priority
+                className="absolute object-cover  scale-125 left-52 bottom-16"
+              />
+            </div>
 
             <div className="absolute top-36 left-6 flex flex-col gap-6 w-[80%]">
               <h3 className="w-[346px] text-[40px] leading-[1.1] tracking[-0.02em]">
@@ -46,18 +49,18 @@ function Features() {
             </div>
           </div>
 
-          <div className="relative w-full h-full rounded-md overflow-hidden">
-            <Image
-              src="/Mobile-mockup.png"
-              alt="Forecaster Logo"
-              layout="fill"
-              objectFit="cover"
-              className="absolute"
-              priority
-            />
+          {/* Third Card */}
+          <div className="flex items-end gap-8 w-full h-full rounded-md overflow-hidden bg-black pt-6 pl-6 pr-6">
+            <div className="w-3/5 h-full relative">
+              <Image
+                src="/Mobile-mockup.png"
+                layout="fill"
+                alt="Forecaster Logo"
+              />
+            </div>
 
-            <div className="absolute top-36 left-[535px] flex flex-col gap-6 w-[80%]">
-              <h3 className="w-[346px] text-[40px] leading-[1.1] tracking[-0.02em]">
+            <div className="flex flex-col gap-6 ">
+              <h3 className="text-[40px] leading-[1.1] tracking[-0.02em]">
                 Death By Data
               </h3>
               <p className="w-[250px] h-[108px] leading-[1.5] ">

@@ -4,18 +4,16 @@ import CTA from "./CTA";
 
 function Hero() {
   return (
-    <div className="flex py-24 items-center justify-center text-white">
-      <div className="flex flex-col w-[641px] h-[640px] gap-[80px]">
-        <div className="w-[641px] h-[318px]">
-          <h1 className="font-semibold text-8xl leading-[110%] tracking-[-0.02em]">
-            Real-time golf analysis from the future
-          </h1>
-        </div>
+    <div className="flex flex-col-reverse px-24 lg:py-24 lg:flex-row items-center justify-center text-white">
+      <div className="flex flex-col p-6 w-screen pb-24 lg:w-[641px] lg:h-[640px] gap-[80px]">
+        <h1 className="w-full h-full lg:w-[641px] lg:h-[318px] font-semibold text-left text-5xl lg:text-8xl leading-[110%] tracking-[-2%]">
+          Real-time golf analysis from the future
+        </h1>
 
         <Frame />
         <CTA />
       </div>
-      <div className="relative w-[641px] h-[640px] gap-[80px]">
+      <div className="relative w-[358px] h-[354px] lg:w-[641px] lg:h-[640px] gap-[80px]">
         <Image
           src="/Heroimage.png"
           alt="Forecaster Logo"

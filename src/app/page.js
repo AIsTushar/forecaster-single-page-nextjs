@@ -11,9 +11,9 @@ export default function Home() {
       <Hero />
       <Explanation />
       <Features />
-      <Membership />
-      <FAQ />
-      <Footer />
+      {/* <Membership /> */}
+      {/* <FAQ /> */}
+      {/* <Footer /> */}
     </>
   );
 }
