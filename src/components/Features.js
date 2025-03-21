@@ -26,7 +26,7 @@ function Features() {
         </div>
 
         {/* Second and Third Cards Container */}
-        <div className="grid grid-rows-2 col-span-1 sm:col-span-3 gap-6">
+        <div className="grid grid-rows-1 lg:grid-rows-2 col-span-1 sm:col-span-3 gap-6">
           {/* Second Card */}
           <div className="relative w-full h-[720px] sm:h-[400px] rounded-lg overflow-hidden bg-black">
             <div className="w-full h-full relative overflow-hidden">
@@ -52,7 +52,7 @@ function Features() {
           </div>
 
           {/* Third Card */}
-          <div className="flex relative flex-col-reverse sm:flex-row items-end gap-12 w-full  sm:h-full rounded-lg overflow-hidden bg-black pt-6 px-6 lg:px-12 lg:py-6">
+          <div className="flex relative flex-col-reverse sm:flex-row items-end gap-12 w-full h-[535px] lg:h-[400px] rounded-lg overflow-hidden bg-black pt-6 px-6 lg:px-12 lg:py-6">
             <div className="lg:w-[1080px] bottom-[-20] w-full h-3/4 sm:h-full relative">
               <Image
                 src="/Mobile-mockup.png"
@@ -67,7 +67,7 @@ function Features() {
               <h3 className="text-4xl sm:text-[40px] leading-[1.5] lg:leading-[1.1] tracking[-2%]">
                 Death By Data
               </h3>
-              <p className="lg:w-full w-[250px] h-[108px] text-lg sm:text-base leading-[150%]">
+              <p className="w-full h-[108px] text-lg sm:text-base leading-[150%]">
                 Every swing, slice, and missed putt is stored in the app for
                 review, so you can relive your worst shots whenever you want.
               </p>
