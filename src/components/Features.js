@@ -52,22 +52,22 @@ function Features() {
           </div>
 
           {/* Third Card */}
-          <div className="flex relative flex-col-reverse sm:flex-row items-end gap-8 w-full h-[520px] sm:h-full rounded-lg overflow-hidden bg-black  pt-6 px-3 lg:py-6">
-            <div className="w-full bottom-[-25] sm:w-3/5 h-3/4 sm:h-full relative">
+          <div className="flex relative flex-col-reverse sm:flex-row items-end gap-12 w-full  sm:h-full rounded-lg overflow-hidden bg-black pt-6 px-6 lg:px-12 lg:py-6">
+            <div className="lg:w-[1080px] bottom-[-20] w-full h-3/4 sm:h-full relative">
               <Image
                 src="/Mobile-mockup.png"
                 layout="fill"
                 alt="Forecaster Logo"
                 objectFit="contain"
-                className="scale-110 sm:scale-100"
+                className="scale-110"
               />
             </div>
 
-            <div className="flex flex-col gap-6 w-full sm:w-auto">
+            <div className="flex flex-col gap-6 w-full  sm:w-auto">
               <h3 className="text-4xl sm:text-[40px] leading-[1.5] lg:leading-[1.1] tracking[-2%]">
                 Death By Data
               </h3>
-              <p className="w-full sm:w-[250px] h-[108px] text-lg sm:text-base leading-[1.5]">
+              <p className="lg:w-full w-[250px] h-[108px] text-lg sm:text-base leading-[150%]">
                 Every swing, slice, and missed putt is stored in the app for
                 review, so you can relive your worst shots whenever you want.
               </p>
